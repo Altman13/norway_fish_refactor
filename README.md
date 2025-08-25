@@ -1,41 +1,36 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+# Проект на React
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+Этот проект был переписан с использованием **React** для улучшения производительности, исправления багов и внедрения чистой архитектуры. Теперь он обладает более стабильной и масштабируемой структурой, что позволяет проще поддерживать и расширять функционал.
 
-> Free React Admin Dashboard made with Material-UI components and React.
+## Что было сделано:
+- **Переписан с чистого JavaScript на React**: Использование компоненты и хуков React для улучшения структуры кода.
+- **Фикс багов**: Устранены проблемы, влияющие на стабильность и функциональность.
+- **Оптимизация производительности**: Применены эффективные методы рендеринга и управления состоянием.
+- **Чистая архитектура**: Разделение ответственности между компонентами, улучшенная тестируемость и масштабируемость.
 
-![preview](public/static/preview.jpg)
+## Как запустить:
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/yourusername/repository-name.git
 
-| [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
-| ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **7** Demo pages                                      | **50+** demo pages                                                |
-| -                                                     | ✓ Multi-language                                                  |
-| -                                                     | ✓ Dark/Light Mode 🌓                                              |
-| -                                                     | ✓ [More components](https://minimals.cc/components)               |
-| -                                                     | ✓ Next.js version                                                 |
-| -                                                     | ✓ TypeScript version                                              |
-| -                                                     | ✓ Design files (Figma & Sketch)                                   |
+    Перейдите в директорию проекта:
 
-## Page demo
+cd repository-name
 
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Users](https://minimal-kit-react.vercel.app/dashboard/user)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Blog](https://minimal-kit-react.vercel.app/dashboard/blog)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
+Установите зависимости:
 
-## Getting started
+npm install
 
-- Recommended `node js 14.x` and `npm 6+`. (suggestion v14.17.3 / v16.15.0)
-- Install dependencies: `npm install` / `yarn install`
-- Start the project: `npm run start` / `yarn start`
+Запустите проект:
 
-## License
+    npm start
 
-Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
+Используемые технологии:
 
-## Contact us
+    React
 
-Email Us: support@minimals.cc
+    React Router
+
+    React Hooks
+
+    Бандлер: Webpack
