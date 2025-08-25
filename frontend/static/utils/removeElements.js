@@ -1,1 +1,0 @@
-export const removeElements = (element) => document.querySelectorAll(element).forEach(e => e.remove());
