@@ -1,0 +1,1 @@
+export const getLastIdString = (str) => str.substr(str.length - 1);
